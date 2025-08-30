@@ -18,32 +18,6 @@
 
 / {
 
-    macros {
-        alt_f4: alt_f4 {
-            compatible = "zmk,behavior-macro";
-            bindings = <&macro_press &kp LALT>
-                    , <&macro_tap &kp F4>
-                    , <&macro_release &kp LALT>
-                    ;
-        };
-
-        ctrl_pgup: ctrl_pgup {
-            compatible = "zmk,behavior-macro";
-            bindings = <&macro_press &kp LCTRL>
-                    , <&macro_tap &kp PG_UP>
-                    , <&macro_release &kp LCTRL>
-                    ;
-        };
-
-        ctrl_pgdn: ctrl_pgdn {
-            compatible = "zmk,behavior-macro";
-            bindings = <&macro_press &kp LCTRL>
-                    , <&macro_tap &kp PG_DN>
-                    , <&macro_release &kp LCTRL>
-                    ;
-        };
-    };
-
    // Activate ADJUST layer by pressing raise and lower
     conditional_layers {
         compatible = "zmk,conditional-layers";
