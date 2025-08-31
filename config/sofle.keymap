@@ -73,7 +73,7 @@
 &trans       &trans        &trans        &kp LBKT        &kp RBKT        &kp EQUAL                                   &trans    &kp PG_UP  &kp UP    &kp PG_DN   &none    &kp DELETE
 &trans       &trans        &trans        &kp PLUS        &kp MINUS        &kp UNDER                                  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT   &kp END   &trans
 &trans       &trans        &trans        &kp LBRC        &kp RBRC        &trans        &trans  &trans  &none         &none     &trans     &trans      &trans    &trans
-                           &trans        &trans        &trans        &trans            &trans  &trans  &mo ADJUST    &none     &trans     &trans
+            &trans        &trans        &trans        &trans            &trans  &trans  &trans    &none     &trans     &trans
                            >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
