@@ -33,7 +33,7 @@
             label = "macro_switch_to_mba";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 0>, <&to MACOS_DEFAULT>;
-         };
+        };
 
     };
 
