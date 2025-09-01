@@ -16,8 +16,8 @@
 #define MACOS_RAISE 3
 #define FN 4
 
-/ {
 
+/{
     macros {
         mba: mba {
             compatible = "zmk,behavior-macro";
@@ -114,6 +114,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
+        };
 
 
         macos_raise_layer {
