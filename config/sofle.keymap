@@ -85,16 +85,16 @@
 // |  TAB  |  Q  |  W   |  E   |  R   |  T   |                        |  Y   |  U    |  I    |  O   |   P   | BKSPC  |
 // |  CMD  |  A  |  S   |  D   |  F   |  G   |                        |  H   |  J    |  K    |  L   |   ;   |   '    |
 // | GRAVE |  Z  |  X   |  C   |  V   |  B   |  MUTE  |         |     |  N   |  M    |  ,    |  .   |   /   |   \    |
-//               |  FN  | SHIFT| MAC_RAISE| ALT  |  CTRL   |  | ENTER | SPACE| MAC_RAISE | CTRL_PGUP  | CTRL_PGDN |
+//               |  FN  | SHIFT| MAC_RAISE| ALT  |  CTRL   |  | ENTER | SPACE| MAC_RAISE | CTRL  | CTRL_PGDN |
             bindings = <
 &kp ESC       &kp N1      &kp N2           &kp N3      &kp N4      &kp N5                             &kp N6     &kp N7            &kp N8         &kp N9         &kp N0   &kp DELETE
 &kp TAB       &kp Q       &kp W            &kp E       &kp R       &kp T                              &kp Y      &kp U             &kp I          &kp O          &kp P    &kp BSPC
 &kp LCMD      &kp A       &kp S            &kp D       &kp F       &kp G                              &kp H      &kp J             &kp K          &kp L          &kp SEMI &kp SQT
 &kp GRAVE     &kp Z       &kp X            &kp C       &kp V       &kp B      &kp C_MUTE   &none      &kp N      &kp M             &kp COMMA      &kp DOT        &kp FSLH &kp BSLH
-                        &mo FN  &kp LSHIFT  &mo MACOS_RAISE  &kp LALT   &kp LCTRL    &kp ENTER  &kp SPACE  &mo MACOS_RAISE   &kp LG(PG_UP)  &kp LG(PG_DN)
+                        &mo FN  &kp LSHIFT  &mo MACOS_RAISE  &kp LALT   &kp LCTRL    &kp ENTER  &kp SPACE  &mo MACOS_RAISE   &kp LCTRL  &kp LG(PG_DN)
             >;
 
-            ssensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         raise_layer {
