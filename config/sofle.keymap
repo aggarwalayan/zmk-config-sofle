@@ -75,7 +75,7 @@
                  &mo FN &kp LSHIFT &mo RAISE &kp LALT    &kp LGUI   &kp ENTER  &kp SPACE  &mo RAISE &kp LC(PG_UP)  &kp LC(PG_DN)
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         macos_default_layer {
@@ -91,10 +91,10 @@
 &kp TAB       &kp Q       &kp W            &kp E       &kp R       &kp T                              &kp Y      &kp U             &kp I          &kp O          &kp P    &kp BSPC
 &kp LCMD      &kp A       &kp S            &kp D       &kp F       &kp G                              &kp H      &kp J             &kp K          &kp L          &kp SEMI &kp SQT
 &kp GRAVE     &kp Z       &kp X            &kp C       &kp V       &kp B      &kp C_MUTE   &none      &kp N      &kp M             &kp COMMA      &kp DOT        &kp FSLH &kp BSLH
-                        &mo FN  &kp LSHIFT  &mo MACOS_RAISE  &kp LALT   &kp LCTRL    &kp ENTER  &kp SPACE  &mo MACOS_RAISE   &kp LCTRL  &kp LG(PG_DN)
+                        &mo FN  &kp LSHIFT  &mo MACOS_RAISE  &kp LALT   &kp LCTRL    &kp ENTER  &kp SPACE  &kp LCTRL  &mo MACOS_RAISE  &kp LG(PG_DN)
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+           sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         raise_layer {
@@ -113,8 +113,7 @@
                            &trans        &trans        &trans        &trans            &trans  &trans  &trans    &none     &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
-        };
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
 
 
         macos_raise_layer {
@@ -155,7 +154,7 @@
                     &trans    &none      &to DEFAULT    &to MACOS_DEFAULT     &none &none       &none     &none   &none    &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
     };
 
 
