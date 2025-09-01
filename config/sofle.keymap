@@ -121,14 +121,14 @@
             display-name = "MACOS_RAISE";
 // ------------------------------------------------------------------------------------------------------------
 // |       |      |      |       |       |       |                |    ^   |   &  |   *   |  (   |  )    |       |
-// |       |      |      |   [   |   ]   |   =   |                |        | PGUP |   ^   | PGDN |       | DELETE|
-// |       |      |      |   +   |   -   |   _   |                |  HOME  |   <- |   v   |  ->  | END   |       |
+// |       |   \  |   ~  |   [   |   ]   |   =   |                |        | PGUP |   ^   | PGDN |       | DELETE|
+// |       |   |  |   `  |   +   |   -   |   _   |                |  HOME  |   <- |   v   |  ->  | END   |       |
 // |       |      |      |   {   |   }   |       |      |  |      |        |DLEFT |DRIGHT |      |       |       |
 //                |      |       |       |       |      |  |      |        |      |       |      |
             bindings = <
 &trans       &trans        &trans        &trans          &trans         &trans                                    &kp CARET     &kp AMPS      &kp ASTRK    &kp LPAR      &kp RPAR    &trans
-&trans       &trans        &trans        &kp LBKT        &kp RBKT        &kp EQUAL                                   &trans    &kp PG_UP  &kp UP    &kp PG_DN   &none    &kp DELETE
-&trans       &trans        &trans        &kp PLUS        &kp MINUS        &kp UNDER                                  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT   &kp END   &trans
+&trans       &kp BSLH      &kp TILDE     &kp LBKT        &kp RBKT        &kp EQUAL                                   &trans    &kp PG_UP  &kp UP    &kp PG_DN   &none    &kp DELETE
+&trans       &kp PIPE      &kp GRAVE     &kp PLUS        &kp MINUS       &kp UNDER                                  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT   &kp END   &trans
 &trans       &trans        &trans        &kp LBRC        &kp RBRC        &trans        &trans  &trans  &none         &kp LC(LEFT)     &kp LC(RIGHT)      &trans &trans    &trans
                            &trans        &trans        &trans        &trans            &trans  &trans  &none    &none     &trans     &trans
             >;
