@@ -129,8 +129,8 @@
 &trans       &trans        &trans        &trans          &trans         &trans                                    &kp CARET     &kp AMPS      &kp ASTRK    &kp LPAR      &kp RPAR    &trans
 &trans       &kp BSLH      &kp TILDE     &kp LBKT        &kp RBKT        &kp EQUAL                                   &trans    &kp PG_UP  &kp UP    &kp PG_DN   &none    &kp DELETE
 &trans       &kp PIPE      &kp GRAVE     &kp PLUS        &kp MINUS       &kp UNDER                                  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT   &kp END   &trans
-&trans       &trans        &trans        &kp LBRC        &kp RBRC        &trans        &trans  &trans  &none         &kp LC(LEFT)     &kp LC(RIGHT)      &trans &trans    &trans
-                           &trans        &trans        &trans        &trans            &trans  &trans  &none    &none     &trans     &trans
+&trans       &trans        &trans        &kp LBRC        &kp RBRC        &trans        &trans  &trans  &trans        &kp LC(LEFT)     &kp LC(RIGHT)      &trans &trans    &trans
+                           &trans        &trans        &trans        &trans            &trans  &trans  &trans    &trans     &trans     &trans
             >;
 
            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
